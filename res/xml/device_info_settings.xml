@@ -35,6 +35,7 @@
         </PreferenceScreen>
 
         <!-- LineageOS Updates -->
+        <!--
         <cyanogenmod.preference.SelfRemovingPreference android:key="cm_updates"
                 android:title="@string/cmupdate_settings_title"
                 android:summary="@string/system_update_settings_list_item_summary"
@@ -44,6 +45,7 @@
                     android:targetPackage="org.lineageos.updater"
                     android:targetClass="org.lineageos.updater.UpdatesActivity" />
         </cyanogenmod.preference.SelfRemovingPreference>
+        -->
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
